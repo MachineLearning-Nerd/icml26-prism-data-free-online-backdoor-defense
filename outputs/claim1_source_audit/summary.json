@@ -1,0 +1,1 @@
+{"verdict":"inconclusive","scope":"Source-pinned CPU feasibility audit only; no VLM/backdoor benchmark executed.","literal_benchmark":"CIFAR/ImageNet attacks and frozen VLM auditors","compute_policy":"local-only"}

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "PRISM suppresses average Attack Success Rate to 0.8% across 11 attack types on CIFAR-10, including 0.0% ASR against BadNets and Blend, while raising clean accuracy to 93.2% versus 92.0% undefended (Table 1).",
+    "status": "unverified"
+  },
+  {
+    "text": "PRISM is evaluated across 17 datasets (including CIFAR-10/100, ImageNet, GTSRB, MNIST) and 11 attack types spanning Classic, Dynamic, Clean-Label, and Clean-Image categories, using 6 different VLM backbones as auditors (CLIP, SigLIP, ImageBind, Qwen2.5-VL, LLaVA, Gemma3) (Table 2, Section 5).",
+    "status": "unverified"
+  },
+  {
+    "text": "On clean-image backdoors (FLIP, GCB), PRISM suppresses ASR to 1.1-4.4% whereas existing defenses fail with ASR of 28.5-100% on the same attacks (Section 5).",
+    "status": "unverified"
+  },
+  {
+    "text": "On dynamic attacks (WaNet, BPP), PRISM keeps ASR below 1% while baseline defenses achieve 43-99% ASR on the same attacks (Section 5).",
+    "status": "unverified"
+  },
+  {
+    "text": "PRISM's Adaptive Router computes a threshold via Cornish-Fisher expansion, \u03c4 = \u03bc + [\u03b6 + \u03b3/6(\u03b6\u00b2-1)]\u00b7\u03c3, to account for skewness in logit-margin distributions rather than assuming Gaussian margins, with optimal \u03b6=-2 found across datasets (Section 4, Figure 5, Figure 8).",
+    "status": "unverified"
+  },
+  {
+    "text": "PRISM operates entirely externally via a frozen pre-trained VLM auditor, requiring no access to the victim model's weights or its original training data (Section 3.2, Section 4).",
+    "status": "unverified"
+  }
+]

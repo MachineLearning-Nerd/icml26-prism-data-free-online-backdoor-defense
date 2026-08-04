@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "openreview_id": "l3yzuHKpNe",
+  "phase": "claim_1_source_cpu_audit_complete_inconclusive",
+  "next_action": "independent_review_claim_1_source_audit_then_bounded_cornish_fisher_toy",
+  "active_run_ids": [],
+  "publication_allowed": false,
+  "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
+  "claim_1_outcome": {
+    "verdict": "inconclusive",
+    "scope": "Literal CIFAR/ImageNet/VLM audit is not locally reproducible; only source/CPU audit completed.",
+    "evidence": [
+      "outputs/claim1_source_audit/summary.json",
+      "evidence/source/SHA256SUMS"
+    ]
+  }
+}
