@@ -73,7 +73,7 @@ Only one branch currently exists:
 | --- | --- | --- |
 | `main` | Source-pinned PRISM reproduction audit | Contains the initial audit, claim contract, source artifacts, and the inconclusive Claim 1 summary |
 
-There are no feature, experiment, or results branches in this repository at the time of this audit. The current branch points to the initialization commit `29a8c3a` (`Initialize source-pinned PRISM reproduction audit`).
+There are no feature, experiment, or results branches in this repository at the time of this audit. The current public `main` branch points to `7672f14` (`docs: add PRISM reproduction audit README`); its parent audit commits and the original initialization are retained in the reachable history.
 
 ## Claim ledger: what each claim means and how it is produced
 
